@@ -1,0 +1,27 @@
+.paragraf{
+    font-size: 18px;
+    background-color: blue;
+    color: white;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 10px;
+}
+.paragraf:hover{
+    background-color: red;
+    color: black;
+}
+
+.add-style{
+    padding: 10px 15px;
+    background-color: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+#wrapper{
+    background-color: red;
+}
+
+.example{
+    background-color: blue !important;
+}
