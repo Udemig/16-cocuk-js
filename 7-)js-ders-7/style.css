@@ -1,0 +1,48 @@
+.btn{
+    border: none;
+    outline: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+    background-color: crimson;
+    color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+#drag-btn{
+    background-color: green;
+}
+#example-wrapper{
+    border: 5px solid gray;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 30px;
+}
+.bg-color{
+    background-color: red;
+}
+#create-btn{
+    padding: 10px;
+    margin-top: 50px;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 6px;
+}
+.kapsayıcı{
+    width: 500px;
+    height: 500px;
+    background-color: lightcoral;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.new-eleman{
+    text-align: center;
+    border: 1px solid gray;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    background-color: white;
+    font-size: 20px;
+}
