@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- * Css Link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- * Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- * Container -->
+    <div class="container">
+      <!-- * Konum Alanı -->
+      <div class="locations">
+        <button>London</button>
+        <button>Sydney</button>
+        <button>Istanbul</button>
+        <button>Tokyo</button>
+        <button>Paris</button>
+      </div>
+      <!-- * Arama Alanı -->
+      <div class="search">
+        <form>
+          <input type="text" placeholder="şehiri aratın" />
+          <button id="search-btn" type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <button><i class="fa-solid fa-location-dot"></i></button>
+        </form>
+
+        <div>
+          <span>°C </span> /
+          <span>°F</span>
+        </div>
+      </div>
+      <!-- * Tarih -->
+      <p class="date">
+        <span class="full-date">13 Nisan 2025 </span>
+        <span class="time">Lokal Saat: 17:00</span>
+      </p>
+      <!-- * Şehir -->
+      <h3 class="city">Malatya,Tr</h3>
+      <!-- * Hava Durumu -->
+      <p class="status">Clouds</p>
+
+      <!-- * Info Alanı -->
+      <div class="info">
+        <!-- Icon -->
+        <div class="icon">
+          <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="" />
+        </div>
+
+        <!-- Degree -->
+        <div class="degree">
+          <span>4.1°</span>
+        </div>
+
+        <!-- Info -->
+
+        <div class="info-areas">
+          <!-- Feel -->
+          <p>
+            <i class="fa-solid fa-temperature-quarter"></i>
+            <span>Hissedilen:</span>
+            <span class="feel">23.8°</span>
+          </p>
+          <!-- Humudity -->
+          <p>
+            <i class="fa-solid fa-droplet"></i>
+            <span>Nem:</span>
+            <span class="hum">50%</span>
+          </p>
+          <!-- Wind -->
+          <p>
+            <i class="fa-solid fa-wind"></i>
+            <span>Rüzgar:</span>
+            <span class="wind">50km/h</span>
+          </p>
+        </div>
+      </div>
+      <!-- * Bottom -->
+      <div class="bottom">
+        <div>
+          <i class="fa-solid fa-sun"></i>
+          <span>Doğuş:</span>
+          <span class="sunrise">7:01</span>
+        </div>
+        <div>
+          <i class="fa-solid fa-sun"></i>
+          <span>Batış:</span>
+          <span class="sunset">7:01</span>
+        </div>
+        <div>
+          <i class="fa-solid fa-sun"></i>
+          <span>Yüksek:</span>
+          <span class="max">7:01</span>
+        </div>
+        <div>
+          <i class="fa-solid fa-sun"></i>
+          <span>Düşük:</span>
+          <span class="min">7:01</span>
+        </div>
+      </div>
+    </div>
+    <!-- * Js Bağlantı -->
+    <script src="./main.js"></script>
+  </body>
+</html>
